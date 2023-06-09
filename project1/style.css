@@ -1,0 +1,55 @@
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar h1{
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(105, 189, 105);
+}
+ul{
+    display: flex;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-right: 20px;
+    padding: 5px;
+}
+img{
+    height: 70px;
+    width: 90px;
+    margin-left: 40px;
+}
+.background-container{
+    background-color: rgb(234, 228, 228);
+    padding: 155px;
+    margin-left: 120px;
+    margin-right: 20px;
+    position: relative;
+}
+.image-container{
+   height: 74vh;
+   width: 185vh;
+   position: absolute;
+   right: 100px;
+   top: 80px;
+   margin-left: 200px;
+}
+.paragraph-container{
+    background-color: white;
+    position: absolute;
+    height: 45vh;
+    width: 350px;
+    right: 0px;
+    padding-left: 50px;
+    padding-right: 70px;
+    bottom: 0px;
+    padding-top: 70px;
+}
+span{
+    font-size: 45px;
+    color: green;
+}
